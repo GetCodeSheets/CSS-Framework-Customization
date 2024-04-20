@@ -1,0 +1,19 @@
+// Import Bootstrap SCSS files for customization
+@import "bootstrap/scss/bootstrap";
+
+// Custom styles
+body {
+    padding-top: 70px; // Adjust padding for fixed navbar
+}
+
+.jumbotron {
+    background-color: #f8f9fa; // Change jumbotron background color
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Add box shadow
+}
+
+.navbar-brand {
+    font-weight: bold; // Increase font weight of navbar brand
+}
